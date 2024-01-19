@@ -1,0 +1,9 @@
+.container-fluid{
+    width: 10px;
+    height: 3px;
+    background-color: rgba(128, 128, 128, 0.573) !important;
+}
+
+.desc,.col-md-4,h2{
+    display: none;
+}

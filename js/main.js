@@ -1,0 +1,10 @@
+$('.container-fluid').animate({width:"100%"},1000)
+$('.container-fluid').animate({height:"100vh"},1000 ,function(){
+    $("h2").slideDown(1000 , function(){
+        $(".desc").show(1000 , function(){
+            $(".col-md-4").slideDown(1000)
+        })
+    })
+})
+
+
